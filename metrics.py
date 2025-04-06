@@ -38,11 +38,11 @@ def maximum(data: list) -> float:
         return data
     
     # Identify the max value in the list
-    max = data[0] 
+    max_value = data[0] 
     for num in data:
-        if num >= max:
-            max = num
-    return round(max, 2)
+        if num >= max_value:
+            max_value = num
+    return round(max_value, 2)
 
 
 def variance(data: list) -> float:
