@@ -15,12 +15,12 @@ def average(data: list) -> float:
         return data
     
     # Calculate the average 
-    average = 0
-    sum = 0
+    average_value = 0
+    sum_value = 0
     for num in data:
-        sum += num
-    average = sum / len(data)
-    return round(average, 2)
+        sum_value += num
+    average_value = sum_value / len(data)
+    return round(average_value, 2)
     
 
 
